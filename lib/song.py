@@ -52,7 +52,7 @@ class Song:
 
     @classmethod
     def add_to_artist_count(cls):
-        # Creating a new artist count dictand updating the cls attr
+        # Creating a new artist count dict and updating the cls attr
         artist_count = {}
         for artist in cls.artists:
             artist_count[artist] = cls.artist_count.get(artist, 0)
